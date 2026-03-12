@@ -3,8 +3,27 @@
 @{
     ViewData["Title"] = "Home page";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<head>
+    <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
+</head>
+<section class="section">
+    <h3>Vehículos Destacados</h3>
+    <div class="cards">
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Maverick_X_ds_Turbo_Side-by-Side.jpg" alt="Auto Todoterreno">
+            <h4>Auto Todoterreno</h4>
+            <p>Durabilidad y velocidad en cada rincón del mundo.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d" alt="Auto Deportivo">
+            <h4>Auto Deportivo</h4>
+            <p>Diseño aerodinámico y potencia para los amantes de la velocidad.</p>
+        </div>
+        <div class="card">
+            <img src="https://segurarse.com.ar/blog/wp-content/uploads/2017/05/classic-car.jpg" alt="Auto Clásico">
+            <h4>Auto Antiguo</h4>
+            <p>Un clásico infalible que venció contra el tiempo.</p>
+        </div>
+        <h5>Registra tu vehiculo en la sección Vehiculos!</h5>
+    </div>
+</section>

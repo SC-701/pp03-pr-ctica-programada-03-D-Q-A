@@ -2,7 +2,7 @@
 @model Razor.Pages.Vehiculos.DetalleModel
 @{
 }
-}
+
 <h1>Detalles de Vehiculo</h1>
 <div class="container">
     <div class="col-md-8">
@@ -22,6 +22,7 @@
             </div>
             
         </div>
+        <br />
         <a type="button" class="btn btn-primary" asp-page="./Index">Regresar</a>
         <a type="button" class="btn btn-warning" asp-page="./Editar" asp-route-id="@Model.vehiculo.Id">Editar</a>
 
